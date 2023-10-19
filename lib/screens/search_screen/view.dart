@@ -96,30 +96,6 @@ class _SearchScreenViewState extends State<SearchScreenView> {
     });
   }
   var _controller = TextEditingController();
-  // bool isFailed = false;
-  // bool isLoading = false;
-  // search()async{
-  //   isLoading = true;
-  //   setState(() {});
-  //   try{
-  //     final response = await Dio().post("https://project2.amit-learning.com/api/jobs/search",options: Options(
-  //       headers: {
-  //         "Authorization":"Bearer 1355|5xjgwypUtpW8AuJ2xWJdUSbIo4omj0aH2IZsuej0",
-  //       }
-  //
-  //     ));
-  //     print(response.data);
-  //     isLoading = false;
-  //     setState(() {});
-  //
-  //   }on DioException{
-  //     isFailed = true;
-  //     setState(() {});
-  //   }
-  // }
-
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
